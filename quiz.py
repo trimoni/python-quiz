@@ -36,5 +36,5 @@ if answer.lower() == '1492':
 else:
   print('Incorrect!')
 
-print("You got" + str(score) + " questions correct!")
-print("You got" + str((score/4) * 100) + "% ")
+print("You got " + str(score) + " questions correct!")
+print("You got " + str((score/4) * 100) + "% ")
