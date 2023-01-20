@@ -13,20 +13,20 @@ if answer == 'central processing unit':
 else:
   print('Incorrect!')
 
-answer = input("What does CPU stand for? ")
-if answer == 'central processing unit':
+answer = input("What is the capital of Massachusetts? ")
+if answer == 'boston':
   print('Correct!')
 else:
   print('Incorrect!')
 
-answer = input("What does CPU stand for? ")
-if answer == 'central processing unit':
+answer = input("What stone evolves Pikachu? ")
+if answer == 'thunder stone':
   print('Correct!')
 else:
   print('Incorrect!')
 
-answer = input("What does CPU stand for? ")
-if answer == 'central processing unit':
+answer = input("When did Columbus arrive to America? ")
+if answer == '1492':
   print('Correct!')
 else:
   print('Incorrect!')
