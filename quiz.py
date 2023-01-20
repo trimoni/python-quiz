@@ -18,17 +18,22 @@ else:
 answer = input("What is the capital of Massachusetts? ")
 if answer.lower() == 'boston':
   print('Correct!')
+  score += 1
 else:
   print('Incorrect!')
 
 answer = input("What stone evolves Pikachu? ")
 if answer.lower() == 'thunder stone':
   print('Correct!')
+  score += 1
 else:
   print('Incorrect!')
 
 answer = input("When did Columbus arrive to America? ")
 if answer.lower() == '1492':
   print('Correct!')
+  score += 1
 else:
   print('Incorrect!')
+
+print("You got" + str(score) + " questions correct!")
