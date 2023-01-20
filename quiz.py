@@ -8,8 +8,8 @@ if playing.lower() != 'yes':
 print("Okay! Let's Play ")
 score = 0
 
-answer = input("What does CPU stand for? ")
-if answer.lower() == 'central processing unit':
+answer = input("What color is Ketchup? ")
+if answer.lower() == 'red':
   print('Correct!')
   score += 1
 else:
@@ -37,3 +37,4 @@ else:
   print('Incorrect!')
 
 print("You got" + str(score) + " questions correct!")
+print("You got" + str((score/4) * 100) + "% ")
