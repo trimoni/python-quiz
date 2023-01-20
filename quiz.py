@@ -8,25 +8,25 @@ if playing.lower() != 'yes':
 print("Okay! Let's Play ")
 
 answer = input("What does CPU stand for? ")
-if answer == 'central processing unit':
+if answer.lower() == 'central processing unit':
   print('Correct!')
 else:
   print('Incorrect!')
 
 answer = input("What is the capital of Massachusetts? ")
-if answer == 'boston':
+if answer.lower() == 'boston':
   print('Correct!')
 else:
   print('Incorrect!')
 
 answer = input("What stone evolves Pikachu? ")
-if answer == 'thunder stone':
+if answer.lower() == 'thunder stone':
   print('Correct!')
 else:
   print('Incorrect!')
 
 answer = input("When did Columbus arrive to America? ")
-if answer == '1492':
+if answer.lower() == '1492':
   print('Correct!')
 else:
   print('Incorrect!')
