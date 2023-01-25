@@ -1,5 +1,8 @@
 import random
 
-r = random.randrange(0, 11)
+top_of_range = input('Type a number: ')
 
-print(r)
+
+
+randum_number = random.randrange(0, 11)
+
