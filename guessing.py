@@ -14,3 +14,7 @@ else:
 
 randum_number = random.randint(0, top_of_range)
 
+while True:
+  print('Steve')
+  break
+
