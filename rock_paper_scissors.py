@@ -6,6 +6,9 @@ computer_wins = 0
 while True:
   user_input = input('Type Rock/Paper/Scissors or Q to Quit: ').lower()
   if user_input == 'q':
-    quit()
+    break
   
-  if user_input in ["rock", "paper", "scissors"]:
+  if user_input not in ["rock", "paper", "scissors"]:
+    continue
+
+print('Leave')
