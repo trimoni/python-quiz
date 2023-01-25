@@ -8,8 +8,9 @@ if top_of_range.isdigit():
   if top_of_range <= 0:
     print('Please type a number larger than 0 next time')
     quit()
-  else:
-    print('Please type a number next time')
+else:
+  print('Please type a number next time')
+  quit()
 
-randum_number = random.randrange(0, 11)
+randum_number = random.randint(0, top_of_range)
 
