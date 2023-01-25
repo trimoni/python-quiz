@@ -11,4 +11,7 @@ while True:
   if user_input not in ["rock", "paper", "scissors"]:
     continue
 
+  random_number = random.randint(0, 2)
+  #
+
 print('Leave')
