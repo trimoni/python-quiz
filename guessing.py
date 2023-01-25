@@ -15,6 +15,6 @@ else:
 randum_number = random.randint(0, top_of_range)
 
 while True:
-  print('Steve')
+  user_guess = input('Make a guess: ')
   break
 
