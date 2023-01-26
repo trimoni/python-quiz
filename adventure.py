@@ -15,6 +15,14 @@ if answer == 'left':
 
 
 elif answer == 'right':
-  print()
+  answer == input('You come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back) ')
+
+  if answer == 'cross':
+    print('You crossed the bridge and lived')
+  elif answer == 'back':
+    print('You walked back and... died')
+  else:
+    print('Not a valid option. You suck.')
+
 else:
   print('Not a valid option. You suck.')
