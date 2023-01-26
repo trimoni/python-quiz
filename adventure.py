@@ -26,3 +26,5 @@ elif answer == 'right':
 
 else:
   print('Not a valid option. You suck.')
+
+print('Thank you trying', name)
