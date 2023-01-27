@@ -1,4 +1,4 @@
-pwd = input('What is the master password? ')
+master_pwd = input('What is the master password? ')
 
 def view():
   pass
@@ -6,7 +6,8 @@ def view():
 view()
 
 def add():
-  pass
+  name = input('Account Name: ')
+  pwd = input('Password: ') 
 
 while True:
   mode = input('Would you like to add a new password or view existing ones (view, add)?, press q to quit ').lower()
