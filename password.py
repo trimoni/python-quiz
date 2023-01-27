@@ -1,5 +1,12 @@
 pwd = input('What is the master password? ')
 
+def view():
+  pass
+
+view()
+
+def add():
+  pass
 
 while True:
   mode = input('Would you like to add a new password or view existing ones (view, add)?, press q to quit ').lower()
