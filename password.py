@@ -7,8 +7,6 @@ def view():
       user, passw = data.split('|')
       print('User:', user, '| Password:', passw)
 
-
-
 def add():
   name = input('Account Name: ')
   pwd = input('Password: ') 
